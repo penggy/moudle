@@ -9,7 +9,7 @@
       "type": "string",
       "required": true,
       "label": "Project description",
-      "default": "webpack & vue project"
+      "default": "webpack & typescript project for node moudle develop"
     },
     "author": {
       "type": "string",
