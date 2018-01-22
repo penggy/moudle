@@ -1,0 +1,24 @@
+{
+  "name": "{{ name }}",
+  "description": "{{ description }}",
+  "version": "1.0.0",
+  "author": "{{ author }}",
+  "license": "{{ license }}",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/node": "9.3.0",
+    "ts-loader": "3.2.0",
+    "tsconfig-paths-webpack-plugin": "2.0.0",
+    "typescript": "2.6.2",
+    "webpack": "3.10.0"
+  }
+}
